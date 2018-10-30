@@ -22,6 +22,8 @@ set backspace=2
 
 " vundle 环境设置
 filetype off
+" you must download vundle first!!! Then use :PluginInstall
+" git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/Vundle.vim
 set rtp+=~/.vim/bundle/Vundle.vim
 " vundle 管理的插件列表必须位于 vundle#begin() 和 vundle#end() 之间
 call vundle#begin()
@@ -55,7 +57,7 @@ Plugin 'scrooloose/nerdcommenter'
 " Plugin 'vim-scripts/DrawIt'
 " Plugin 'SirVer/ultisnips'
 " 神器，自动补全
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 " Plugin 'derekwyatt/vim-protodef'
 " 目录树
 Plugin 'scrooloose/nerdtree'
